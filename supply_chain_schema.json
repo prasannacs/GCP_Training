@@ -1,0 +1,43 @@
+[
+    {
+        "name": "product_id",
+        "type": "STRING"
+    },
+    {
+        "name": "product",
+        "type": "RECORD",
+        "fields": [
+            {
+                "name": "name",
+                "type": "STRING"
+            },
+            {
+                "name": "color",
+                "type": "STRING"
+            },
+            {
+                "name": "warranty",
+                "type": "STRING"
+            }
+        ]
+    },
+    {
+        "name": "quantity",
+        "type": "INTEGER"
+    },
+    {
+        "name": "warehouse",
+        "type": "RECORD",
+        "mode": "REPEATED",
+        "fields": [
+            {
+                "name": "name",
+                "type": "STRING"
+            },
+            {
+                "name": "state",
+                "type": "STRING"
+            }
+        ]
+    }
+]
