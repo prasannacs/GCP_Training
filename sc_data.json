@@ -1,0 +1,6 @@
+{"product_id":"B101","product":{"name":"Babalot Pure Aero","color":"Yellow","warranty":"12 months"},"quantity":"67","warehouse":[{"name":"ORD","state":"IL"},{"name":"SFO","state":"CA"}]}
+{"product_id":"B102","product":{"name":"Babalot Pure Strike","color":"White","warranty":"12 months"},"quantity":"12","warehouse":[{"name":"PHL","state":"PA"},{"name":"EWR","state":"NJ"}]}
+{"product_id":"H103","product":{"name":"Head Radical 360","color":"Red","warranty":"15 months"},"quantity":"33","warehouse":[{"name":"PHX","state":"AZ"},{"name":"DEN","state":"CO"}]}
+{"product_id":"H104","product":{"name":"Head Graphene TL","color":"Black","warranty":"18 months"},"quantity":"34","warehouse":[{"name":"FLL","state":"FL"},{"name":"MCO","state":"FL"}]}
+{"product_id":"W105","product":{"name":"Wilson Blade 107","color":"Green","warranty":"24 months"},"quantity":"39","warehouse":[{"name":"FLL","state":"FL"},{"name":"MCO","state":"FL"}]}
+{"product_id":"W106","product":{"name":"Wilson Pro Staff","color":"Black","warranty":"24 months"},"quantity":"56","warehouse":[{"name":"MSC","state":"MN"},{"name":"DFW","state":"TX"}]}
