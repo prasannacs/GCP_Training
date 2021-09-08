@@ -1,0 +1,38 @@
+// Send HTTPS POST to https://twttr-devrel-training-dev.uc.r.appspot.com/search/fas
+
+{
+    "fullArchiveSearch" :  {
+        "query": "lang:en -is:retweet from:elonmusk",
+        "fromDate" : "202105150000",
+        "toDate" : "202108190000",
+        "category" : "influencer",
+        "subCategory" : "musk1"
+    },
+    "naturalLanguage" : {
+        "on" : false,
+        "google" : {
+            "googleSvc" : true,
+            "maxTweetsToAnnotate" : 2000
+        },
+        "watson" : {
+            "watsonSvc" : true,
+            "maxTweetsToAnnotate" : 1000
+        }
+    },
+    "machineLearning"   :   {
+        "on" : false,
+        "cxm"   :   {
+            "vertexSvc" : true,
+            "maxTweetsToAnnotate" : 5000
+        }
+    },
+    "followers":    {
+        "followers_graph" : false,
+        "maxUsers" : 25,
+        "maxUsersProfiles" : 10
+    },
+    "dataSet" : {
+        "newDataSet" : true,
+        "dataSetName" : "<<dataset_name>>"
+    }
+}
